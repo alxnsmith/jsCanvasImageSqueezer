@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+  margin: 0 0 2rem 0;
+  border-bottom: 1px solid lightgray;
+}
+
+#preview{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid gray;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-height: 100px;
+  justify-content: center;
+}
+
+.element{
+  border: 1px solid lightgray;
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+}
+.element a, .element canvas{
+  margin: auto 1px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+.element a, .element a img{
+  display: block;
+}
+
+.controls{
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  border: 1px solid gray;
+}
+.controls > *{
+  border-bottom: 1px solid lightgray;
+  margin: 3px;
+}
