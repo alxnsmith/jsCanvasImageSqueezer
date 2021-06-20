@@ -74,7 +74,7 @@ function squeezeImages(e, cb){
       
       const ctx = canvas.getContext('2d');
       ctx.drawImage(image, 0, 0, size.width, size.height);
-      const dataURL = canvas.toDataURL('image/png');      
+      const dataURL = canvas.toDataURL(file.type);      
       const b64 = dataURL.split(',').slice(-1)[0];
       b64Images.push(b64);
 
