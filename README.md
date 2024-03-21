@@ -1,3 +1,3 @@
 # jsCanvasImageSqueezer
 
-- [DEMO](https://alxnsmith.github.io/jsCanvasImageSqueezer)
+- [DEMO](https://websmithcode.github.io/jsCanvasImageSqueezer)
